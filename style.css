@@ -1,0 +1,36 @@
+body{
+    background-color: lightgreen;
+    transition:.5s;
+}
+.player{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+}
+.track-art{
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background-image: url(a1.jpg);
+}
+.now-playing { 
+    font-size: 1rem; 
+  } 
+    
+  .track-name { 
+    font-size: 3rem; 
+  } 
+    
+  .track-artist { 
+    font-size: 1.5rem; 
+  } 
